@@ -1,0 +1,24 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Mac OS-specific storage files
+.DS_Store
+
+# pytest cache
+.pytest_cache/
+
+# Jupyter NB Checkpoints
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Sphinx documentation
+docs/_build/
+
+# Models and outputs
+models/*
+outputs/*
+!.gitkeep
