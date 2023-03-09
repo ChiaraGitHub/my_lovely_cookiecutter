@@ -34,8 +34,10 @@ test:
 	pytest
 
 docs:
-	@echo View API documentation... 
-	PYTHONPATH=src pdoc src --http localhost:8080
+	@echo "View API documentation..."
+	PYTHONPATH={{cookiecutter.project_name}} pdoc {{cookiecutter.project_name}} --http localhost:8080
 
-
+docs_save:
+	@echo Save documentation to docs... 
+	PYTHONPATH={{cookiecutter.project_name}} pdoc {{cookiecutter.project_name}} -o docs
 
