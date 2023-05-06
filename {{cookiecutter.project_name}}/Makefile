@@ -34,10 +34,6 @@ test:
 	pytest
 
 docs:
-	@echo "View API documentation..."
-	pdoc {{cookiecutter.project_name}} --http localhost:8080
-
-docs_save:
 	@echo Save documentation to docs... 
-	pdoc {{cookiecutter.project_name}} -o docs
+	pdoc ./{{cookiecutter.project_name}} -d google -o docs
 

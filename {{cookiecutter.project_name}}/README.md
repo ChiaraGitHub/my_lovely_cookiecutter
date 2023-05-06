@@ -9,7 +9,12 @@ To initialize git and poetry, install pre-commit hooks and push first commit:
 make init
 ```
 
-To activate the poetry environment
+To activate the poetry environment:
 ```bash
 make active
+```
+
+To save the documentation:
+```bash
+make docs
 ```
